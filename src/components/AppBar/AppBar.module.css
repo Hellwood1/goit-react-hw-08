@@ -1,0 +1,14 @@
+.nav {
+  top: 0px;
+  left: 0px;
+  position: sticky;
+  z-index: 1100;
+  min-height: 64px;
+  padding: 12px 48px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+  box-shadow: black 0px 8px 6px -6px;
+}

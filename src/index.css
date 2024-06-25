@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --black: #111212;
+  --white: #fff;
+  --dark: #292e2e;
+  --light-grey: #ebeded;
+  --grey: #c5c9c9;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 70px;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

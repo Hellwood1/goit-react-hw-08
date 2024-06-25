@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 100ms ease-in-out;
+}
+
+.link:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.isActive {
+  background-color: var(--white);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--black);
+  cursor: default;
+}

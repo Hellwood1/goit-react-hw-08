@@ -1,0 +1,24 @@
+.wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.logoutBtn {
+  color: var(--white);
+  background-color: var(--black);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 100ms ease-in-out;
+}
+
+.logoutBtn:hover {
+  background-color: var(--white);
+  color: black;
+  border: 1px solid var(--black);
+}
+
+.text {
+  color: white;
+}

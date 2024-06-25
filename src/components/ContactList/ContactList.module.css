@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.item {
+  width: calc((100% - 60px) / 4);
+}
+
+.contactCount {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
