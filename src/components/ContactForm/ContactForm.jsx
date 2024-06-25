@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <h2>PhoneBook</h2>
+      <h2>Add new contacts</h2>
 
       <Formik
         initialValues={{ name: "", number: "" }}

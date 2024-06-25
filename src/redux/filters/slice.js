@@ -4,18 +4,18 @@ const slice = createSlice({
   name: "filters",
   initialState: {
     name: "",
-    number: "",
+    phone: "",
   },
   reducers: {
     changeNameFilter(state, action) {
       state.name = action.payload;
     },
-    changeNumberFilter(state, action) {
-      state.number = action.payload;
+    changePhoneFilter(state, action) {
+      state.phone = action.payload;
     },
   },
 });
 
-export const { changeNameFilter, changeNumberFilter } = slice.actions;
+export const { changeNameFilter, changePhoneFilter } = slice.actions;
 
 export default slice.reducer;
