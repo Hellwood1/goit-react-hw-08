@@ -12,10 +12,10 @@ let errorSchema = Yup.object().shape({
     .max(50, "Too Long!")
     .required("Required"),
   email: Yup.string()
-    .email("Please enter a valid email address")
+    .email("Please enter a valid email address!")
     .required("Required"),
   password: Yup.string()
-    .min(8, "Password must be at least 8 characters")
+    .min(8, "Password must be at least 8 characters!")
     .required("Required"),
 });
 

@@ -27,11 +27,11 @@ export default function Contact({ id, name, number }) {
   const handleUpdate = () => {
     dispatch(updateContact({ id, updates: { name: updatedName, number: updatedNumber } }))
       .then(() => {
-        toast.success('Contact successfully updated');
+        toast.success('Contact successfully updated!');
         setIsEditing(false);
       })
       .catch((error) => {
-        toast.error('Error updating contact');
+        toast.error('Error updating contact!');
       });
   };
 

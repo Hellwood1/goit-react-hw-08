@@ -10,7 +10,7 @@ export default function ContactList() {
   return (
     <div>
       <div className={css.contactCount}>
-        {contactCount > 0 ? `In your phone book: ${contactCount} contacts.` : "In your phone book: 0 contacts."}
+        {contactCount > 0 ? `In your PhoneBook: ${contactCount} contacts.` : "Your PhoneBook is empty!"}
       </div>
       <ul className={css.list}>
         {contacts.map((contact) => (
